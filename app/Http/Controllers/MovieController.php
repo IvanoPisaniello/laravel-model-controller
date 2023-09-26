@@ -11,7 +11,7 @@ class MovieController extends Controller
     {
         $dati = Movie::all();
 
-        dd($dati);
-        return view('movie');
+        // dd($dati);
+        return view('movie', ["movies" => $dati]);
     }
 }
