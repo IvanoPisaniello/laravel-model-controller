@@ -2,12 +2,12 @@
 
 @section("content")
     <h1 class="text-center">MOVIES</h1>
-    <div class="bg-secondary p-5">
+    <div class=" p-5">
     <div class="container">
     <div class="d-flex flex-row flex-wrap gap-2 justify-content-center">
         @foreach($movies as $movie)
             <div class="col-2">
-                <div class="card rounded">
+                <div class="my-card rounded">
                     <div class="card-header">
                         {{ $movie->title }}
                     </div>
